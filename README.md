@@ -18,21 +18,24 @@ python3.8
 # Dataset
 
 ## SEN2MS 
-Download(Source): https://mediatum.ub.tum.de/1474000
-Precessing code: https://github.com/schmitt-muc/SEN12MS
-The cloud masks will be provided upon request. 
+Download(Source): https://mediatum.ub.tum.de/1474000  
+Precessing code: https://github.com/schmitt-muc/SEN12MS  
+The cloud masks will be provided upon request.  
 ![Example of each category in SEN12MS Cloud dataset](images/Fig.5.jpg)
 
 ## HunanCloud
-Download: The dataset will be released after the paper is published
+Download: The dataset will be released after the paper is published  
 ![Example of each category in Hunan Cloud dataset](images/Fig.6.jpg)
+
+
 # Reference
 
 ## Filtering and Generation of Pseudo-Labels
-In the first step of the multi-step transfer process, the source-domain model guides the auxiliary model for knowledge transfer. To ensure the reliability of the auxiliary model, we perform filtering based on the logit outputs during pseudo-label generation. This helps mitigate the effect of excessive noise and improves the stability of the learning process. For the detailed procedure, please refer to: Cross-Sensor Remote-Sensing Images Scene Understanding Based on Transfer Learning Between Heterogeneous Networks. https://ieeexplore.ieee.org/abstract/document/9570728。
+In the first step of the multi-step transfer process, the source-domain model guides the auxiliary models for knowledge transfer. To ensure the reliability of the auxiliary model, we perform filtering based on the logit outputs during pseudo-label generation. This helps mitigate the effect of excessive noise and improves the stability of the learning process.  
 
+For the detailed procedure, please refer to: Cross-Sensor Remote-Sensing Images Scene Understanding Based on Transfer Learning Between Heterogeneous Networks. https://ieeexplore.ieee.org/abstract/document/9570728.  
 
-In the second step of the multi-step transfer process, we did not apply filtering in order to preserve the model’s ability to repeatedly learn multi-modal balance under complex cloud-covered conditions. This choice was made because heavily cloud-contaminated samples might otherwise be incorrectly discarded as noise.
+In the second step of the multi-step transfer process, we did not apply filtering in order to preserve the model’s ability to learn multi-modality balance under complex cloud-covered conditions. This choice was made because heavily cloud-contaminated samples might otherwise be incorrectly discarded as noise.  
 
 Our overall pseudo-label generation technique was inspired by Knowledge Distillation Zoo (https://github.com/AberHu/Knowledge-Distillation-Zoo).
 
