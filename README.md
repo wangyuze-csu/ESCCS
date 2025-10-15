@@ -44,16 +44,27 @@ Our overall pseudo-label generation technique was inspired by Knowledge Distilla
 
 ## Opt to Opt
 
-SPL： Thick cloud removal in optical remote sensing images using a texture complexity guided self-paced learning method. reference(https://github.com/GeoX-Lab/TPL)  
-KD-S (soft Knowledge Distillation): Knowledge distillation and student-teacher learning for visual intelligence: A review and new outlooks reference(https://github.com/AberHu/Knowledge-Distillation-Zoo)
+SPL： Thick cloud removal in optical remote sensing images using a texture complexity guided self-paced learning method.   reference(https://github.com/GeoX-Lab/TPL)  
+  
+KD-S (soft Knowledge Distillation): Knowledge distillation and student-teacher learning for visual intelligence: A review and new outlooks   reference(https://github.com/AberHu/Knowledge-Distillation-Zoo)
 
 ## Opt to SAR
-TTL: A general transitive transfer learning framework for cross-optical sensor remote sensing image scene understanding.  
-CycIT: Two-stage cross-modality transfer learning method for military-civilian SAR ship recognition(Reproduced by ourselves, will be released after the paper is published)  
+TTL: A general transitive transfer learning framework for cross-optical sensor remote sensing image scene understanding.    
+reference (https://ieeexplore.ieee.org/abstract/document/10107753)  
+The code will be provided upon request.  
+  
+CycIT: Two-stage cross-modality transfer learning method for military-civilian SAR ship recognition
+reference (https://ieeexplore.ieee.org/abstract/document/9743385)
+The code will be provided upon request.  
 
 ## Opt to Opt&SAR
-KDHN: Cross-Sensor Remote-Sensing Images Scene Understanding Based on Transfer Learning Between Heterogeneous Networks(https://ieeexplore.ieee.org/abstract/document/9570728)  
-TLF: A comparative review on multi-modal sensors fusion based on deep learning（Reproduced by ourselves, will be released after the paper is published）  
-
-
-The code will be released after the paper is published  
+KDHN: Cross-Sensor Remote-Sensing Images Scene Understanding Based on Transfer Learning Between Heterogeneous Networks
+reference(https://ieeexplore.ieee.org/abstract/document/9570728)  
+The code will be provided upon request. 
+  
+TLF: A comparative review on multi-modal sensors fusion based on deep learning
+reference(https://www.sciencedirect.com/science/article/pii/S0165168423002396)
+The code will be provided upon request. 
+  
+GDL: Gradient Decoupled Learning With Unimodal Regularization for Multimodal Remote Sensing Classification
+reference([https://ieeexplore.ieee.org/abstract/document/10714439](https://github.com/shicaiwei123/TGRS-GDNet))
