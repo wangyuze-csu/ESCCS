@@ -10,10 +10,10 @@ information that may still exist in partially cloud-contaminated optical images.
 
 # Dependency
 
-Ubuntu18.04
-CUDA11.3
-PyToch1.12
-python3.8
+Ubuntu18.04  
+CUDA11.3  
+PyToch1.12  
+python3.8  
 
 # Dataset
 
